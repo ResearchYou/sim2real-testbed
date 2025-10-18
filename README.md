@@ -1,4 +1,4 @@
-# value-pasta-auto
+# value-pasta-auto (TO BE UPDATED)
 I have created a lower cost approximation of the Toyota PASTA:Portable Automotive Testbed with Adaptability using consumer hardware and Arduino based software. The original didn't release details of how the hardware in the top of the case for the inputs/outputs and displays operate or are connected.
 ![Value-Pasta-Auto](/value-pasta-auto.jpg)
 
@@ -171,7 +171,7 @@ Powertrain, Body and Chassis ECU's have 3.5" NEXTION HMI [NEXTION](https://www.i
 
 ## Arduino Bluetooth CAR
 An Arduino based remote car can be controlled using #Value-Pasta-Auto. Minor changes for the lights were made to the code to control the lights from Value-Pasta-Auto. Arduino Sketch is in the Software folder.
-<br>[Link to Amazon Freenove 4WD Car Kit](https://www.amazon.co.uk/gp/product/B07YBQ73CH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) 
+<br>[Link to Amazon Freenove 4WD Car Kit](https://www.amazon.co.uk/gp/product/B07YBQ73CH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 <br>Original software for the car is [Here](https://git.io/fjjf2)
 
 ## CAN message detail per bus
