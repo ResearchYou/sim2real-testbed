@@ -922,238 +922,238 @@ void carlaSniff()
 
                         switch (out_msg.id)
                         {
-                        // // 100Hz CH
-                        // case brakeOutputIndMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 100Hz CH
-                        // case throttlePositionMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
+                        // 100Hz CH
+                        case brakeOutputIndMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 100Hz CH
+                        case throttlePositionMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
                         // 100Hz CH
                         case engineRpmMSG:
                             // 1
                             Can1.write(out_msg);
                             break;
-                        // // 100Hz CH
-                        // case powerSteeringOutIndMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 100Hz CH
-                        // case shiftPositionMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 20Hz CH
-                        // case brakeOilIndMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 20Hz CH
-                        // case absBrakeOperationMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 20Hz CH
-                        // case throttleAdjustmentMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 20Hz CH
-                        // case engineCoolantTempMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 20Hz CH
-                        // case engineMalfunctionMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 20Hz CH
-                        // case powerSteeringMalfMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 20Hz CH
-                        // case engineStatusMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 20Hz CH
-                        // case parkingBrakeStatusMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 2Hz CH
-                        // case fuelAmountMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 2Hz CH
-                        // case batteryWarningMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // // 2Hz CH
-                        // case ecoDrivingJudgementMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case brakeOperationMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case accelerationOperationMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     break;
-                        // case steeringWheelPosMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     break;
-                        // case shiftPositionSwitchMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     break;
-                        // case engineStartMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     break;
-                        // case turnSwitchMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case hornSwitchMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case lightSwitchMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case lightFlashMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case parkingBrakeMSG:
-                        //     // 0
-                        //     Can0.write(out_msg);
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case wiperSwitchFrontMSG:
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case wiperSwitchRearMSG:
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case doorLockUnlockMSG:
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case lDoorSwWindowMSG:
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case rDoorSwWindowMSG:
-                        //     // 2
-                        //     Can2.write(out_msg);
-                        //     break;
-                        // case turnSignalIndicatorMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case hornOperationMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case airbagActivationMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case lightIndicatorMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case frontWiperStatusMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case rearWiperStatusMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case doorLockStatusMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case lDoorPositionMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case rDoorPositionMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case 0x3e9:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case 0x3f4:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case 0x3ff:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case doorDriveUnitMalfuncMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case 0x436:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case 0x441:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case 0x44c:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case seatBeltSensorMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case seatBeltAlarmMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case bonnetOpenSwitchMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
-                        // case trunkOpenSwitchMSG:
-                        //     // 1
-                        //     Can1.write(out_msg);
-                        //     break;
+                        // 100Hz CH
+                        case powerSteeringOutIndMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 100Hz CH
+                        case shiftPositionMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 20Hz CH
+                        case brakeOilIndMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 20Hz CH
+                        case absBrakeOperationMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 20Hz CH
+                        case throttleAdjustmentMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 20Hz CH
+                        case engineCoolantTempMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 20Hz CH
+                        case engineMalfunctionMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 20Hz CH
+                        case powerSteeringMalfMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 20Hz CH
+                        case engineStatusMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 20Hz CH
+                        case parkingBrakeStatusMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 2Hz CH
+                        case fuelAmountMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 2Hz CH
+                        case batteryWarningMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        // 2Hz CH
+                        case ecoDrivingJudgementMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case brakeOperationMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case accelerationOperationMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            break;
+                        case steeringWheelPosMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            break;
+                        case shiftPositionSwitchMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            break;
+                        case engineStartMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            break;
+                        case turnSwitchMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case hornSwitchMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case lightSwitchMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case lightFlashMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case parkingBrakeMSG:
+                            // 0
+                            Can0.write(out_msg);
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case wiperSwitchFrontMSG:
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case wiperSwitchRearMSG:
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case doorLockUnlockMSG:
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case lDoorSwWindowMSG:
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case rDoorSwWindowMSG:
+                            // 2
+                            Can2.write(out_msg);
+                            break;
+                        case turnSignalIndicatorMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case hornOperationMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case airbagActivationMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case lightIndicatorMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case frontWiperStatusMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case rearWiperStatusMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case doorLockStatusMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case lDoorPositionMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case rDoorPositionMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case 0x3e9:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case 0x3f4:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case 0x3ff:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case doorDriveUnitMalfuncMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case 0x436:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case 0x441:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case 0x44c:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case seatBeltSensorMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case seatBeltAlarmMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case bonnetOpenSwitchMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
+                        case trunkOpenSwitchMSG:
+                            // 1
+                            Can1.write(out_msg);
+                            break;
                         default:
                             if (gDebug) {
                                 DEBUG_PORT.print(F("Unknown message with ID: 0x"));
@@ -1228,7 +1228,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1246,7 +1245,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1257,14 +1255,13 @@ void canSniff0(const CAN_message_t &msg0)
     case engineRpmMSG:
         if (ecuNumber == 3)
         {
-            // if (ethernetON) {
-            //     // Ethernet
-            //     carlaSend(msg0);
-            // } else {
-            //     // 1
-            //     Can1.write(msg0);
-            // }
-            carlaSend(msg0);
+            if (ethernetON) {
+                // Ethernet
+                carlaSend(msg0);
+            } else {
+                // 1
+                Can1.write(msg0);
+            }
         }
         else
         {
@@ -1283,7 +1280,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1302,7 +1298,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1366,7 +1361,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1384,7 +1378,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1402,7 +1395,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1420,7 +1412,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1439,7 +1430,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1457,7 +1447,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1475,7 +1464,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1494,7 +1482,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1568,7 +1555,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1586,7 +1572,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1604,7 +1589,6 @@ void canSniff0(const CAN_message_t &msg0)
                 // 1
                 Can1.write(msg0);
             }
-            carlaSend(msg0);
         }
         else
         {
@@ -1686,7 +1670,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case accelerationOperationMSG: // 0x02f (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1696,7 +1679,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 0
             Can0.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case steeringWheelPosMSG: // 0x058 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1706,7 +1688,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 0
             Can0.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case shiftPositionSwitchMSG: // 0x06d (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1716,7 +1697,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 0
             Can0.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case engineStartMSG: // 0x1b8 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1726,7 +1706,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 0
             Can0.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case turnSwitchMSG: // 0x083 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1738,7 +1717,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case hornSwitchMSG: // 0x098 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1750,7 +1728,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case lightSwitchMSG: // 0x1a7 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1762,7 +1739,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case lightFlashMSG: // 0x1b1 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1774,7 +1750,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case parkingBrakeMSG: // 0x1c9 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1786,7 +1761,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case wiperSwitchFrontMSG: // 0x25c (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1796,7 +1770,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case wiperSwitchRearMSG: // 0x271 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1806,7 +1779,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case doorLockUnlockMSG: // 0x286 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1816,7 +1788,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case lDoorSwWindowMSG: // 0x29c (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1826,7 +1797,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     case rDoorSwWindowMSG: // 0x2b1 (CS_TO_AL) == CS to PT & BD
         if (ethernetON) {
@@ -1836,7 +1806,6 @@ void canSniff1(const CAN_message_t &msg1)
             // 2
             Can2.write(msg1);
         }
-        carlaSend(msg1);
         break;
     default:
         break;
@@ -1883,7 +1852,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case hornOperationMSG: // 0x0a2 (BD_TO_CS)
         if (ethernetON) {
@@ -1893,7 +1861,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case airbagActivationMSG: // 0x0b4 (BD_TO_CS)
         if (ethernetON) {
@@ -1903,7 +1870,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case lightIndicatorMSG: // 0x1bb (BD_TO_CS)
         if (ethernetON) {
@@ -1913,7 +1879,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case frontWiperStatusMSG: // 0x266 (BD_TO_CS)
         if (ethernetON) {
@@ -1923,7 +1888,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case rearWiperStatusMSG: // 0x27b (BD_TO_CS)
         if (ethernetON) {
@@ -1933,7 +1897,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case doorLockStatusMSG: // 0x290 (BD_TO_CS)
         if (ethernetON) {
@@ -1943,7 +1906,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case lDoorPositionMSG: // 0x2bb (BD_TO_CS)
         if (ethernetON) {
@@ -1953,7 +1915,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case rDoorPositionMSG: // 0x2a6 (BD_TO_CS)
         if (ethernetON) {
@@ -1963,7 +1924,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case 0x3e9: // 0x3e9 (BD_TO_CS)
         if (ethernetON) {
@@ -1973,7 +1933,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case 0x3f4: // 0x3f4 (BD_TO_CS)
         if (ethernetON) {
@@ -1983,7 +1942,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case 0x3ff: // 0x3ff (BD_TO_CS)
         if (ethernetON) {
@@ -1993,7 +1951,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case doorDriveUnitMalfuncMSG: // 0x420 (BD_TO_CS)
         if (ethernetON) {
@@ -2003,7 +1960,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case 0x436: // 0x436 (BD_TO_CS)
         if (ethernetON) {
@@ -2013,7 +1969,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case 0x441: // 0x441 (BD_TO_CS)
         if (ethernetON) {
@@ -2023,7 +1978,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case 0x44c: // 0x44c (BD_TO_CS)
         if (ethernetON) {
@@ -2033,7 +1987,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case seatBeltSensorMSG: // 0x457 (BD_TO_CS)
         if (ethernetON) {
@@ -2043,7 +1996,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case seatBeltAlarmMSG: // 0x461 (BD_TO_CS)
         if (ethernetON) {
@@ -2053,7 +2005,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case bonnetOpenSwitchMSG: // 0x46c (BD_TO_CS)
         if (ethernetON) {
@@ -2063,7 +2014,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     case trunkOpenSwitchMSG: // 0x477 (BD_TO_CS)
         if (ethernetON) {
@@ -2073,7 +2023,6 @@ void canSniff2(const CAN_message_t &msg2)
             // 1
             Can1.write(msg2);
         }
-        carlaSend(msg2);
         break;
     default:
         break;
@@ -4307,7 +4256,7 @@ void setup()
 
 void loop()
 {
-    ethernetON = false;
+    ethernetON = isEthernetLinkUp();
     serialMenu();
     if (ecuNumber == 0)
     {
